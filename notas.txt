@@ -1,0 +1,8 @@
+para usar put y delete
+
+en consola npm install method-override
+
+en app.js
+
+const methodOverride = require('method-override');
+app.use(methodOverride ('_method'));
